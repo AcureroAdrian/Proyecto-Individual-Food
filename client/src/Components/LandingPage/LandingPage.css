@@ -1,0 +1,57 @@
+.image {
+	background-image: url("./Landing.jpg");
+	background-repeat: no-repeat;
+	position: fixed;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+  }
+
+  .card {
+	background-color: rgba(141, 141, 141, 0.500);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 350px;
+	position: absolute;
+	top: 37%;
+	left: 20%;
+	border-radius: 4%;
+	height: 25%;
+	box-shadow: 0 12px 16px 0 rgba(180, 180, 180, 0.24), 0 17px 50px 0 rgba(180, 180, 180, 0.19);
+	transition-property: all;
+	transition-duration: 0.3s;
+	transition-delay: 0.8ms;
+  }
+
+  .card:hover{
+	box-shadow: 0 6px 13px 0 rgba(180, 180, 180, 0.2), 0 4px 17px 0 rgba(180, 180, 180, 0.19);
+	transition-property: all;
+	transition-duration: 0.3s;
+	transition-delay: 0.8ms;
+  }
+
+  .button {
+	background-color: transparent;
+	position: relative;
+	top: 13%;
+	width: 25%;
+	height: 14%;
+	border-radius: 10%;
+	-webkit-transition-duration: 0.4s; /* Safari */;
+	transition-property: all;
+	transition-duration: 0.3s;
+	transition-delay: 0.1s;
+  }
+
+  .button:hover {
+	color: white;
+	background-color: black;
+	transition-property: all;
+	transition-duration: 0.2s;
+	transition-delay: 0.1s;
+
+  }
+
+  
